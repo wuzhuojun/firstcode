@@ -11,11 +11,12 @@ Activity 与 Fragment的练习
 butterknife 注解的使用
 
 gradle设置：
+
     classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
-    
     apply plugin: 'android-apt'
 
 需要增加库：
+
     compile 'com.jakewharton:butterknife:8.1.0'
     apt 'com.jakewharton:butterknife-compiler:8.1.0'
 	
@@ -43,6 +44,7 @@ AIDL
 OkHttp & gson 的使用
 
 需要增加库：
+
     compile 'com.squareup.okhttp:okhttp:2.4.0'
     compile 'com.google.code.gson:gson:2.4'
 
@@ -57,6 +59,7 @@ viewpager
 compile 'com.android.support:design:23.2.1'
 
 修改样式：
+
     G:\AndroidTestWork\fcode8\app\src\main\res\values\styles.xml
     <item name="windowActionBar">false</item>
     <item name="windowNoTitle">true</item>
@@ -69,6 +72,7 @@ ListView的使用
 RecyclerView的使用
 
 需要增加库
+
     compile 'com.android.support:recyclerview-v7:23.4.0'
 
 资料：
